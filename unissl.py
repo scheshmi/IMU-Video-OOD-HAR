@@ -16,10 +16,9 @@ from config import Config
 def main():
     np.random.seed(Config.DEFAULT_SEED)
 
-    with open('remaining_class_files.txt', 'r') as f:
+    with open('class_files.txt', 'r') as f:
         ssl_data = [line.strip() for line in f.readlines()]
 
-    image_processor = AutoImageProcessor.from_pretrained(Config.PRETRAINED_VIDEOMAE)
 
     context_length = 512
     forecast_horizon = 96
