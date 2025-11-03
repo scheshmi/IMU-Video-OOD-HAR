@@ -52,7 +52,7 @@ Evaluate pretrained IMU encoders in linear probing or finetuning modes.
 **Linear Probing:**
 ```bash
 python downstream.py \
-    --model imu2clip \
+    --model imu_video_cross  \
     --checkpoint /path/to/checkpoint.pt \
     --mode lp \
     --dataset mmea \
@@ -67,7 +67,7 @@ python downstream.py \
 **Finetuning:**
 ```bash
 python downstream.py \
-    --model imu2clip \
+    --model imu_video_cross  \
     --checkpoint /path/to/checkpoint.pt \
     --mode finetune \
     --dataset mmea \
