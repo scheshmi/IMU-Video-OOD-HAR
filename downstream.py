@@ -101,8 +101,8 @@ def calculate_per_class_accuracy(y_true, y_pred, classes):
 def parse_args():
     parser = argparse.ArgumentParser(description='Downstream task training (linear probing / finetuning)')
     
-    parser.add_argument('--model', type=str, default='clip', 
-                        choices=['imu2clip', 'clip', 'imuptst'],
+    parser.add_argument('--model', type=str, default='imu_video_cross', 
+                        choices=['imu2clip', 'imu_video_cross', 'imuptst'],
                         help='Model architecture')
     
     parser.add_argument('--checkpoint', type=str, required=True,
