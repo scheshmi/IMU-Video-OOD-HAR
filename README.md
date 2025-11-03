@@ -47,7 +47,7 @@ torchrun --nproc_per_node=4 train.py \
 
 ### Downstream Evaluation 
 
-Evaluate pretrained IMU encoders using linear probing, finetuning.
+Evaluate pretrained IMU encoders in linear probing or finetuning modes.
 
 **Linear Probing:**
 ```bash
