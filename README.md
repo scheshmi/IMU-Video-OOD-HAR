@@ -2,8 +2,7 @@
 
 This repository contains the official implementation of the paper:  
 **Improving Out-of-distribution Human Activity Recognition via IMU-Video Cross-modal Representation Learning**  
-(*Machine Learning for Healthcare, 2025)  
-by **Seyyed Saeid Cheshmi**, **Buyao Lyu**, **Thomas Lisko**, **Rajesh Rajamani**, **Robert A. McGovern**, and **Yogatheesan Varatharajah**.
+(MLHC 2025) by Seyyed Saeid Cheshmi, Buyao Lyu, Thomas Lisko, Rajesh Rajamani, Robert A. McGovern, and Yogatheesan Varatharajah.
 
 [Paper PDF](https://raw.githubusercontent.com/mlresearch/v298/main/assets/cheshmi25a/cheshmi25a.pdf)
 
@@ -82,7 +81,7 @@ python downstream.py \
 
 ## Citation
 
-If this work has helped you please cite the following:
+If you use or build upon this work, please cite:
 
 ```
 @InProceedings{pmlr-v298-cheshmi25a,
