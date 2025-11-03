@@ -1,13 +1,12 @@
 # Improving Out-of-distribution Human Activity Recognition via IMU-Video Cross-modal Representation Learning
 
 This repository contains the official implementation of the paper:  
-**“Improving Out-of-distribution Human Activity Recognition via IMU-Video Cross-modal Representation Learning”**  
+**Improving Out-of-distribution Human Activity Recognition via IMU-Video Cross-modal Representation Learning**  
 (*Machine Learning for Healthcare, 2025)  
 by **Seyyed Saeid Cheshmi**, **Buyao Lyu**, **Thomas Lisko**, **Rajesh Rajamani**, **Robert A. McGovern**, and **Yogatheesan Varatharajah**.
 
 [Paper PDF](https://raw.githubusercontent.com/mlresearch/v298/main/assets/cheshmi25a/cheshmi25a.pdf)
 
----
 
 ## Abstract
 
@@ -15,7 +14,7 @@ by **Seyyed Saeid Cheshmi**, **Buyao Lyu**, **Thomas Lisko**, **Rajesh Rajamani*
 
 Human Activity Recognition (HAR) based on wearable inertial sensors plays a critical role in remote health monitoring. In patients with movement disorders, the ability to detect abnormal patient movements in their home environments can enable continuous optimization of treatments and help alert caretakers as needed. Machine learning approaches have been proposed for HAR tasks using Inertial Measurement Unit (IMU) data; however, most rely on application-specific labels and lack generalizability to data collected in different environments or populations. To address this limitation, we propose a new cross-modal self-supervised pretraining approach to learn representations from large-sale unlabeled IMU-video data and demonstrate improved generalizability in HAR tasks on out of distribution (OOD) IMU datasets, including a dataset collected from patients with Parkinson's disease. Specifically, our results indicate that the proposed cross-modal pretraining approach outperforms the current state-of-the-art IMU-video pretraining approach and IMU-only pretraining under zero-shot and few-shot evaluations. Broadly, our study provides evidence that in highly dynamic data modalities, such as IMU signals, cross-modal pretraining may be a useful tool to learn generalizable data representations.
 
----
+
 
 ##  Installation
 
@@ -85,6 +84,7 @@ python downstream.py \
 
 If this work has helped you please cite the following:
 
+```
 @InProceedings{pmlr-v298-cheshmi25a,
   title = 	 {Improving Out-of-distribution Human Activity Recognition via {IMU}-Video Cross-modal Representation Learning},
   author =       {Cheshmi, Seyyed Saeid and Lyu, Buyao and Lisko, Thomas and Rajamani, Rajesh and McGovern, Robert A. and Varatharajah, Yogatheesan},
@@ -98,3 +98,4 @@ If this work has helped you please cite the following:
   pdf = 	 {https://raw.githubusercontent.com/mlresearch/v298/main/assets/cheshmi25a/cheshmi25a.pdf},
 
 }
+```
